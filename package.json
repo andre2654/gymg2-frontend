@@ -1,0 +1,72 @@
+{
+  "name": "2TRAINER",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/hooks": "^2.4.2",
+    "@chakra-ui/modal": "^2.3.1",
+    "@chakra-ui/popover": "^2.2.1",
+    "@chakra-ui/portal": "^2.1.0",
+    "@chakra-ui/system": "^2.6.2",
+    "@chakra-ui/tooltip": "^2.3.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/multimonth": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@tanstack/react-table": "^8.20.5",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "apexcharts": "4.2.0",
+    "axios-auth-refresh": "^3.3.6",
+    "formik": "^2.4.6",
+    "framer-motion": "^11.13.5",
+    "react": "^18.0.0",
+    "react-apexcharts": "1.7.0",
+    "react-calendar": "^5.1.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^5.4.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "5.0.1",
+    "redux-persist": "^6.0.0",
+    "tailwindcss-rtl": "^0.9.0",
+    "web-vitals": "^4.2.4",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^3.4.16"
+  }
+}

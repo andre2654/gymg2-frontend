@@ -37,6 +37,11 @@ const Login = () => {
       const response = await axios.post(apiUrl, {
         username,
         password,
+      }, {
+        headers: {
+          "Content-Type": "application/json",
+          "Origin": "http://localhost:3000",
+        }
       });
 
       // Axios automatically throws for status codes outside the 2xx range

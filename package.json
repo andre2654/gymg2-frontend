@@ -24,6 +24,7 @@
     "axios-auth-refresh": "^3.3.6",
     "formik": "^2.4.6",
     "framer-motion": "^11.13.5",
+    "jwt-decode": "^4.0.0",
     "react": "^18.0.0",
     "react-apexcharts": "1.7.0",
     "react-calendar": "^5.1.0",
